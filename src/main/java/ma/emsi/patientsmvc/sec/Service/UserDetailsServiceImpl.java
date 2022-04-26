@@ -1,0 +1,1 @@
+package ma.emsi.patientsmvc.sec.Service;  public class UserDetailsServiceImpl { } 

@@ -1,0 +1,1 @@
+package ma.emsi.patientsmvc.sec;  public class SecurityConfg { } 
