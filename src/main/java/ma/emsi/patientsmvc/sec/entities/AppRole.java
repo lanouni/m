@@ -1,4 +1,4 @@
-package ma.emsi.patientsmvc.sec;
+package ma.emsi.patientsmvc.sec.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -18,6 +18,4 @@ public class AppRole {
     @Column(unique = true)
     private String roleName;
     private String description;
-    @ManyToMany(fetch = FetchType.EAGER)
-    private List<AppUser> appRoles = new ArrayList<>();
 }
